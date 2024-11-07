@@ -1,0 +1,83 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 20px;
+  font-size: medium;
+  font-weight: 900;
+}
+.container {
+  background-color: lightgray;
+  width: 50%;
+  margin: 20px auto;
+  padding: 20px;
+ 
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px;
+}
+
+.form > input {
+  padding: 5px;
+}
+
+.form > button {
+  background-color: black;
+  color: white;
+  width: 60px;
+  padding: 3px;
+  border: none;
+  border-radius: 5px;
+}
+
+.filterItem {
+  display: flex;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid gray;
+  margin: 10px;
+  padding: 5px;
+}
+
+.ul {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  gap: 10px;
+  margin: 10px;
+}
+
+.ul > li {
+  border: 1px solid gray;
+  padding: 5px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.textRed{
+  color: red;
+  background-color: lightgray;
+  border: transparent;
+}
+
+.btnClrContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.btnClrContainer > button {
+  padding: 5px;
+}
+
+
+

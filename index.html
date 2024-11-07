@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Shopping List</h1>
+      <form class="form" id="formElement">
+        <input type="text" id="input"  placeholder="Enter Item" />
+        <button type="submit" id="btnSubmit">Add Item</button>
+      </form>
+
+      <div>
+        <input
+          type="text"
+          class="filterItem"
+          id="filterInput"
+          placeholder="Filter Items"
+        />
+        <ul class="ul" id="ul"></ul>
+        <div class="btnClrContainer">
+          <button type="button" id="clrBtn">Clear All</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
